@@ -11,7 +11,7 @@ deployment:
   staging:
     branch: master
     heroku:
-      appname: pluralsight-docker # appname must not include upper-case characters
+      appname: pluralsight-docker
 test:
   override:    
     - mocha
