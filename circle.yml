@@ -7,6 +7,11 @@
 #    commands:
 #      - $DOCKER_HUB_TRIGGER
 
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: pluralsight-docker # appname must not include upper-case characters
 test:
   override:    
     - mocha
